@@ -1411,5 +1411,9 @@ public class TronClient {
             throw new RuntimeException("Function not found in the contract");
         }
     }
-
+	
+    // john 20210427
+    public TransactionExtention triggerContract(TriggerSmartContract trigger) {
+	return blockingStub.triggerConstantContract(trigger);
+    }
 }

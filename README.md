@@ -42,6 +42,13 @@ dependencies {
 </dependency>
 ```
 
+### compile
+java 11.0.8
+gradle 6.6.1
+
+gradle clean assemble
+
+
 ### Construct Smart Contract Function Demo 
 
 Refer `demo` project.
